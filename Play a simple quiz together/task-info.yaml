@@ -1,0 +1,7 @@
+type: edu
+files:
+  - name: src/bot/SimpleBot.java
+    visible: true
+  - name: test/Tests.java
+    visible: false
+feedback_link: https://hyperskill.org/projects/113/stages/618/implement#comment
