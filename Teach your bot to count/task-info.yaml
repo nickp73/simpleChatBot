@@ -2,6 +2,13 @@ type: edu
 files:
   - name: src/bot/SimpleBot.java
     visible: true
+    learner_created: false
   - name: test/Tests.java
-    visible: false
+    visible: true
+    learner_created: false
 feedback_link: https://hyperskill.org/projects/113/stages/617/implement#comment
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Sat, 10 Jan 2026 13:27:22 UTC"
+record: 28

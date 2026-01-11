@@ -2,6 +2,10 @@ type: edu
 files:
   - name: src/bot/botChat.java
     visible: true
+    learner_created: false
   - name: test/Tests.java
-    visible: false
+    visible: true
+    learner_created: false
 feedback_link: https://hyperskill.org/projects/113/stages/616/implement#comment
+status: Solved
+record: 26
