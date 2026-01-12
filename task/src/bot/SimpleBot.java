@@ -6,7 +6,7 @@ public class SimpleBot {
     final static Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
-        greet("Aid", "2018");
+        greet("Aid", "2025");
         remindName();
         guessAge();
         count();
@@ -20,7 +20,7 @@ public class SimpleBot {
     }
 
     static void remindName() {
-        System.out.println("Please, remind me your name.");
+        System.out.println("Please remind me of your name.");
         String name = scanner.nextLine();
         System.out.println("What a great name you have, " + name + "!");
     }
@@ -55,12 +55,13 @@ public class SimpleBot {
             if (answer == 2) {
                 break;
             } else {
-                System.out.println("Please, try again.");
+                System.out.println("Please try again.");
             }
         }
     }
 
     static void end() {
         System.out.println("Completed, have a nice day!");
+        scanner.close();
     }
 }
